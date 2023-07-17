@@ -1,0 +1,48 @@
+/* Default Margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Custom css Property */
+:root{
+    --primary-color:red;
+    --secondary-color:yellowgreen;
+    --title-font-size:50px;
+    --description-font-size:18px;
+}
+/* body */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Shared Item */
+
+/* Header Section Styles */
+h1{
+    color: var(--secondary-color);
+    font-size: var(--title-font-size);
+}
+p{
+    color: var(--primary-color);
+    font-size: var(--description-font-size);
+}
+
+/* Main Section Styles */
+
+
+
+/* Footer Section Styles */
+
+
+
+/* Responsive Styles by Media Query */
+/* Responsive for small and mobile Phones */
+@media screen and (max-width:576px) {
+    
+}
+
+/* Responsive for Medium diveces */
+@media screen and (min-width:577px) and (max-width:960px) {
+    
+}
