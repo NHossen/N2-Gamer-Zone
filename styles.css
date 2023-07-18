@@ -144,6 +144,7 @@ color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
 .text-play{
     width: 300px;
@@ -156,13 +157,56 @@ color: white;
 
 }
 
-
-
 /* Subscibed section button */
+
+.subscription-button{
+   
+
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+padding: 50px;
+height: 280px;
+align-self:center;
+   
+}
+.subscribe-btn{
+width: 300px;
+height: 80px;
+border-radius: 50px;
+border: none;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+font-size: var(--small-description);
+font-weight: 600;
+color:#0B0223 ;
+
+
+}
+.subscribe-btn:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+
+}
+.subscribe-btn img{
+    margin-left: 15px;
+}
 
 
 
 /* Footer Section Styles */
+
+.footer-container{
+    text-align: center;
+}
+.brand-section{
+    display: flex;
+    justify-content: center;
+
+}
 
 
 
@@ -209,6 +253,11 @@ color: white;
            width: 100%;
            height: 446px;   
         
+    }
+
+    .subscription-button{
+        grid-template-columns: auto auto auto;
+        height: fit-content;
     }
     
 }
