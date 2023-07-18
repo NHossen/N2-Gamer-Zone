@@ -6,27 +6,69 @@
 
 /* Custom css Property */
 :root{
-    --primary-color:red;
-    --secondary-color:yellowgreen;
-    --title-font-size:50px;
+    --primary-color:rgb(255, 31, 180);
+    --secondary-color:rgb(195, 0, 255);
+    --title-font-size:45px;
     --description-font-size:18px;
+    --small-description:20px;
 }
 /* body */
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Shared Item */
 
 /* Header Section Styles */
-h1{
-    color: var(--secondary-color);
+
+/* nav-menu styles */
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 60px;
+    padding:40px 200px ;
+}
+.logo-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+}
+.logo-container h1{
     font-size: var(--title-font-size);
 }
-p{
+.logo-container h1 span{
     color: var(--primary-color);
-    font-size: var(--description-font-size);
 }
+
+/* menus */
+.menu-items-container ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-items-container ul li{
+    list-style: none;
+    text-align: center;
+}
+.menu-items-container ul li a{
+    text-decoration: none;
+    font-size: var(--small-description);
+    color:#3C354F ;
+}
+/* follow us styles */
+.item-follow{
+    width: 262px;
+    height: 5%;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px;
+    
+}
+
 
 /* Main Section Styles */
 
@@ -39,6 +81,24 @@ p{
 /* Responsive Styles by Media Query */
 /* Responsive for small and mobile Phones */
 @media screen and (max-width:576px) {
+    /* nav-menu section */
+    .logo-container{
+        justify-content: center;
+    }
+    .nav-menu,
+    .menu-items-container ul{
+        flex-direction: column;
+    }
+    .menu-items-container{
+        margin-top: 50px;
+    }
+    .nav-menu{
+        box-shadow: none;
+        background:none;
+    }
+    .item-follow{
+        margin-top: 50px;
+    }
     
 }
 
