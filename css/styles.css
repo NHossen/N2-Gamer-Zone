@@ -147,10 +147,11 @@ color: white;
 
 .video-text{
     text-align: center;
-    margin: 20px 0;
+    margin: 100px 0;
 }
 .video-text h1{
-    font-size: 30px;
+    font-size: 38px;
+    margin-bottom: 20px;
 }
 .video-text p{
     font-size: 14px;
@@ -172,6 +173,12 @@ color: white;
     margin-top: 10px;
     width: 280px;
 
+}
+/* video card hover section  */
+.card img:hover{
+    border: 2px solid var(--primary-color);
+    border-radius: 18px;
+    color: #F948B2;
 }
 /* .card{
     width: 342px;
