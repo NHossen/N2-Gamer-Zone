@@ -1,0 +1,77 @@
+/* Responsive Styles by Media Query */
+/* Responsive for small and mobile Phones */
+@media screen and (max-width:576px) {
+    /* nav-menu section */
+    .logo-container{
+        justify-content: center;
+    }
+    .nav-menu,
+    .menu-items-container ul{
+        flex-direction: column;
+    }
+    .menu-items-container{
+        margin-top: 50px;
+    }
+    .nav-menu{
+        box-shadow: none;
+        background:none;
+    }
+    .item-follow{
+        margin-top: 50px;
+    }
+    /* banner section */
+  
+    .banner-container{
+        flex-direction:column-reverse;
+        margin-top: 240px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    /* play section */
+
+    .play-instantly{
+        flex-direction: column;
+    }
+    .image-play{
+        width: 100%;
+    }
+    .text-play{
+        width: 100%;
+        
+    }
+    /* subscription button */
+    .subscription-button{
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+        }
+        .subscribe-btn{
+            align-items: center;
+            gap: 6px;
+            border-radius: 50px;
+            border: none;
+            background: #FFF;
+            font-size: 11px;
+            font-weight: 200;
+            color:#0B0223 ;
+            width: 120px;
+            height: 40px;
+            }
+            .subscribe-btn img{
+                width: 18px;
+            }
+
+            /* Footer section */
+   
+    
+}
+
+/* Responsive for Medium diveces */
+@media screen and (min-width:577px) and (max-width:960px) {
+    
+}
