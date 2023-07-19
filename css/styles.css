@@ -48,7 +48,7 @@ body{
 .menu-items-container ul{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .menu-items-container ul li{
     list-style: none;
@@ -102,7 +102,7 @@ body{
     
 }
 .banner-text .banner-title{
-    font-size: var(--title-font-size);
+    font-size: 50px;
 
 }
 .banner-text .motto{
@@ -236,20 +236,25 @@ color: white;
 
 /* Subscibed section button */
 
+
 .subscription-button{
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+padding: 100px 0;
 max-width: 1400px;
 display: flex;
 align-items: center;
 flex-wrap: wrap;
 justify-content: space-evenly;
-margin: 100px auto 0;
+margin: 100px  auto 0;
+gap: 8px;
+
 /* border: 2px solid red; */
 }
 .subscribe-btn{
 display: flex;
 align-items: center;
 gap: 5px;
-width: 280px;
+width: 260px;
 height: 80px;
 border-radius: 50px;
 border: none;
@@ -281,7 +286,6 @@ color:#0B0223 ;
     align-items: center;
     justify-content: center;
     gap: 25px;
-    margin-top: 50px;
     color: #FFF;
     padding: 120px 0px;
 }
