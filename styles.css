@@ -273,9 +273,17 @@ color:#0B0223 ;
 
 }
 .policy-links a{
+    color: #686670;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.social-media a{
     color: #FFF;
     text-decoration: none;
     margin-left: 10px;
+}
+.copyrigth p{
+    color: #686670;
 }
 
 
