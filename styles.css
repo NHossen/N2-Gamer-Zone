@@ -221,15 +221,14 @@ color: white;
 display: flex;
 align-items: center;
 flex-wrap: wrap;
-justify-content: space-around;
-gap: 20px;
+justify-content: space-evenly;
 margin-top: 200px;
 }
 .subscribe-btn{
 display: flex;
 align-items: center;
 gap: 5px;
-width: 300px;
+width: 280px;
 height: 80px;
 border-radius: 50px;
 border: none;
@@ -341,7 +340,7 @@ color:#0B0223 ;
     .subscription-button{
         align-items: center;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         gap: 5px;
         }
         .subscribe-btn{
@@ -350,14 +349,14 @@ color:#0B0223 ;
             border-radius: 50px;
             border: none;
             background: #FFF;
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 400;
             color:#0B0223 ;
             width: 120px;
             height: 50px;
             }
             .subscribe-btn img{
-                width: 20px;
+                width: 18px;
             }
    
     
