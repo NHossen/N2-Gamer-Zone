@@ -159,7 +159,7 @@ color: white;
 .video-card{
     display: flex; 
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 .card p{
@@ -167,6 +167,11 @@ color: white;
     width: 280px;
 
 }
+/* .card{
+    width: 342px;
+    height: 400px;
+    
+} */
 
 
 
