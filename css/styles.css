@@ -48,7 +48,7 @@ body{
 .menu-items-container ul{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 .menu-items-container ul li{
     list-style: none;
@@ -144,10 +144,16 @@ background: #4EC5F7;
 color: white;
 }
 /* Online games video section */
+
 .video-text{
     text-align: center;
-    font-size: 30px;
     margin: 20px 0;
+}
+.video-text h1{
+    font-size: 30px;
+}
+.video-text p{
+    font-size: 14px;
 }
 .video-text span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -156,6 +162,7 @@ color: white;
     -webkit-text-fill-color: transparent;
 }
 .video-card{
+    margin: 0 auto;
     display: flex; 
     justify-content: center;
     gap: 10px;

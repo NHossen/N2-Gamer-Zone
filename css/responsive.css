@@ -49,6 +49,22 @@
         font-size: 16px;
         margin-bottom: 25px;
     }
+    /* video card section */
+
+  
+    .video-text h1{
+        font-size: 25px;
+    }
+    .video-text p{
+        font-size: 12px;
+    }
+    
+   
+    .card p{
+       text-align: center;
+       width: 320px;
+    
+    }
     
     /* play section */
 
