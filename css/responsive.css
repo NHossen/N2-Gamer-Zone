@@ -116,5 +116,112 @@
 
 /* Responsive for Medium diveces */
 @media screen and (min-width:577px) and (max-width:960px) {
+
+    .logo-container{
+        justify-content: center;
+    }
+    .nav-menu,
+    .menu-items-container ul{
+        flex-direction: column;
+    }
+    .menu-items-container{
+        margin-top: 50px;
+    }
+    .nav-menu{
+        box-shadow: none;
+        background:none;
+    }
+    .item-follow{
+        margin-top: 50px;
+    }
+    /* banner section */
+  
+    .banner-container{
+        flex-direction:column-reverse;
+        width: 80%;
+        margin: 240px auto 0;
+    }
+    .banner-text{
+        width: 100%;
+        padding:50px 0;
+    }
+    .banner-image{
+        width: 100%;
+        padding:50px 0;
+    }
+    .banner-text .banner-title{
+        font-size: 30px;
+    
+    }
+    .banner-text .motto{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 55px;
+    }
+    .description{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    /* video card section */
+
+  
+    .video-text h1{
+        font-size: 25px;
+    }
+    .video-text p{
+        font-size: 12px;
+    }
+    
+   
+    .card p{
+       text-align: center;
+       width: 320px;
+    
+    }
+    
+    /* play section */
+
+    .play-instantly{
+        flex-direction: column;
+        width:70%;
+        
+    }
+    .image-play{
+        width: 100%;
+    }
+    .text-play{
+        width: 100%; 
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    .image-play .down-positon{
+        width: 100%;
+       
+    }
+    /* subscription button */
+    .subscription-button{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    }
+    .subscribe-btn{
+    align-items: center;
+    gap: 6px;
+    border-radius: 50px;
+    border: none;
+    background: #FFF;
+    font-size: 11px;
+    font-weight: 200;
+    color:#0B0223 ;
+    width: 220px;
+    height: 60px;
+    }
+            .subscribe-btn img{
+                width: 18px;
+            }
     
 }
